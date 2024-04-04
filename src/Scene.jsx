@@ -9,14 +9,14 @@ import { Ground } from "./Ground";
 import { Track } from "./Track";
 
 export function Scene() {
-  const [thirdPerson, setThirdPerson] = useState(true);
-  const [cameraPosition, setCameraPosition] = useState([0, 2, 7]);
+  const [thirdPerson, setThirdPerson] = useState(false);
+  const [cameraPosition, setCameraPosition] = useState([0, 3, 8]);
 
   useEffect(() => {
     function keydownHandler(e) {
       if (e.key == "c") {
         // random is necessary to trigger a state change
-        if(thirdPerson) setCameraPosition([-6, 3.9, 6.21 + Math.random() * 0.01]);
+        if(thirdPerson) setCameraPosition([0, 3, 8 + Math.random() * 0.01]);
         setThirdPerson(!thirdPerson); 
       }
     }

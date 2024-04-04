@@ -15,7 +15,7 @@ createRoot(document.getElementById("root")).render(
       </Physics>
     </Canvas>
 
-    <div class="controls">
+    <div className="controls">
       <p><b>R</b>: reset</p>
       <p><b>W A S D</b>: move</p>
       <p><b>C</b>: swap camera</p>
