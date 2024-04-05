@@ -26,7 +26,7 @@ export function Car({ thirdPerson }) {
     () => ({
       allowSleep: false,
       args: chassisBodyArgs,
-      mass: 150,
+      mass: 200,
       position,
     }),
     useRef(null),

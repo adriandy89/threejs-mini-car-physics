@@ -9,7 +9,7 @@ createRoot(document.getElementById("root")).render(
     <Canvas>
       <Physics
         broadphase="SAP"
-        gravity={[0, -4, 0]}
+        gravity={[0, -3, 0]}
       >
         <Scene />
       </Physics>
